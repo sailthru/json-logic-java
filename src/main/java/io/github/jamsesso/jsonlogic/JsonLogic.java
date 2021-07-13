@@ -47,6 +47,7 @@ public final class JsonLogic {
     addOperation(FilterExpression.INSTANCE);
     addOperation(ReduceExpression.INSTANCE);
     addOperation(AllExpression.INSTANCE);
+    addOperation(AnyExpression.INSTANCE);
     addOperation(ArrayHasExpression.SOME);
     addOperation(ArrayHasExpression.NONE);
     addOperation(MergeExpression.INSTANCE);
