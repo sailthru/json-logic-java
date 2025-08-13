@@ -72,13 +72,13 @@ To "publish" a version locally for testing run:
 
 This will publish a copy of the library to maven local that will be accessible within other libraries/services.
 
-Inside your other project update the version of the dependency to `SANDBOX` to access the library.
+Inside your other project update the version of the dependency to `vSANDBOX` to access the library.
 
 For example:
 ```
 implementation("com.sailthru:jvm-commons:v1.0.0")
 // Becomes
-implementation("com.sailthru:jvm-commons:SANDBOX")
+implementation("com.sailthru:jvm-commons:vSANDBOX")
 ```
 
 ## Contents:
