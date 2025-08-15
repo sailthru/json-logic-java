@@ -15,5 +15,4 @@ dependencies {
 sailthru {
     type = ProjectType.LIBRARY
     javaVersion = JavaVersion.VERSION_1_8
-    checkstyleEnabled = false
 }
